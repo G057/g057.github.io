@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.texto-naranja {
+    font-weight: 300;
+    color: orange;
+}
+
+.texto-blanco {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+.texto-negro {
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+.header {
+    background: url('bg2.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fondobull{
+    background: url('bg3.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.contenedor1 {
+    display: flex;
+    height: 100;
+    width: 100;
+    flex-direction: column;
+    background-color: rgba(44, 0, 35, 0.73);
+}
+.sintrans{
+    background:none;
+}
+
+.texto-abajo {
+    padding-top: 65vh;
+}
+
+.barra {
+    width: 10vw;
+}
+
+.contenedor2 {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    background-color: rgba(0, 44, 44, 0.6);
+    justify-content: center;
+}
+.contenedor2 h1 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.contador {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contador p {
+    color: #fff;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulos {
+    height: 45px;
+    width: 45px;
+    background-color: #bbb;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.fotoContador{
+    display: flex;
+    height: 70vh;
+    background: url('bg4.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foto1 {
+    background: url('bg5.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foto2 {
+    background: url('bg6.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foto3 {
+    background: url('bg7.gif') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foto4 {
+    background: url('bg8.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foto33{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    align-self: center;
+    background: url('puto.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
